@@ -55,7 +55,7 @@
 int month(int r,int s)
      {
                    int a,b,c;
-                   printf("\n Sunnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn Mon Tue Wed Thu Fri Sat\n");
+                   printf("\n Sunnnnn Mooooooooon Tue Wed Thu Fri Sat\n");
                    for(a=0;a<=s;a++)
                    if(a>=s)
                    {
