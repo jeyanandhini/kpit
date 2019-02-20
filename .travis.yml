@@ -8,3 +8,4 @@ matrix:
       script:  
         - gcc -o test newfile.c 
         - ./test
+
