@@ -6,5 +6,5 @@ matrix:
         - clang
         - gcc
       script:  
-        - gcc -o newfile newfile.c 
-        - ./newfile
+        - gcc -o test newfile.c 
+        - ./test
