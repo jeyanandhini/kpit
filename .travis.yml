@@ -1,8 +1,10 @@
-language: c
-sudo: false # only for fastr builds
-comiler: 
-    -gcc
-    -clang
-script:
-    - gcc -o newfile newfile.c
-    - ./newfile
+matrix:
+  include:    
+    - language: c  
+      sudo: false # only for faster builds  
+      compiler:
+        - clang
+        - gcc
+      script:  
+        - gcc -o newfile newfile.c 
+        - ./newfile
