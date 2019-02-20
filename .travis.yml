@@ -1,0 +1,6 @@
+language: c
+sudo: false # only for fastr builds
+comiler: gcc
+script:
+    -gcc -o file file.c
+    - ./file
