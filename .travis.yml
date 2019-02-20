@@ -1,6 +1,8 @@
 language: c
 sudo: false # only for fastr builds
-comiler: gcc
+comiler: 
+    -gcc
+    -clang
 script:
-    - gcc -o file file.c
-    - ./file
+    - gcc -o newfile newfile.c
+    - ./newfile
